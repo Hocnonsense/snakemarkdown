@@ -1,0 +1,11 @@
+out
+dist
+node_modules
+vsc-extension-quickstart.md
+.vscode-test/
+*.vsix
+!.gitignore
+!.vscodeignore
+!*.ts
+!*.json
+!*.css

@@ -1,0 +1,51 @@
+{
+	"name": "snakemarkdown",
+	"displayName": "snakeMarkdown",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.58.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onLanguage:markdown"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"markdown.previewStyles": [
+			"./src/markdown.css"
+		],
+		"markdown.markdownItPlugins": true
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile && npm run lint",
+		"lint": "eslint src --ext ts",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.3",
+		"@types/markdown-it": "^12.0.3",
+		"@types/mocha": "^8.2.2",
+		"@types/node": "14.x",
+		"@types/vscode": "^1.58.0",
+		"@typescript-eslint/eslint-plugin": "^4.26.0",
+		"@typescript-eslint/parser": "^4.26.0",
+		"eslint": "^7.27.0",
+		"glob": "^7.1.7",
+		"mocha": "^8.4.0",
+		"tsc-watch": "^4.4.0",
+		"typescript": "^4.3.2",
+		"vscode-test": "^1.5.2"
+	},
+	"dependencies": {
+		"cross-path-sort": "^1.0.0",
+		"markdown-it": "^12.2.0",
+		"markdown-it-emoji": "^2.0.0",
+		"markdown-it-regex": "^0.2.0",
+		"nodemon": "^2.0.12"
+	}
+}
