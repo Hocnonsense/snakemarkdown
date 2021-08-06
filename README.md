@@ -1,7 +1,7 @@
 snakemarkdown
 =============
 
-This is the README for your extension "snakemarkdown". After writing up a brief description, we recommend including the following sections.
+- Markdown style.
 
 ## Features
 
