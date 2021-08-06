@@ -19,7 +19,7 @@
 	"main": "./out/extension.js",
 	"contributes": {
 		"markdown.previewStyles": [
-			"./src/markdown.css"
+			"./media/markdown.css"
 		],
 		"markdown.markdownItPlugins": true
 	},
