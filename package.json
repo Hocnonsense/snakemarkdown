@@ -1,6 +1,7 @@
 {
 	"name": "snakemarkdown",
 	"displayName": "snakeMarkdown",
+	"publisher": "hwrn001",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.58.0"
