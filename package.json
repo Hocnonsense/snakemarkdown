@@ -2,6 +2,10 @@
 	"name": "snakemarkdown",
 	"displayName": "snakeMarkdown",
 	"publisher": "hwrn001",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Hocnonsense/snakemarkdown"
+	},
 	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.58.0"
