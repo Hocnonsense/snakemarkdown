@@ -3,7 +3,7 @@
  * @Author: Hwrn
  * @Date: 2020-02-07 22:37:40
  * @LastEditors: Hwrn
- * @LastEditTime: 2021-08-04 15:14:28
+ * @LastEditTime: 2021-08-25 22:28:36
  * @TODU:
  */
 html, body {
@@ -136,6 +136,13 @@ p, ul, dd, ol, hr, address, pre, table, iframe{
 b, dt, strong{ /* b: 粗体, strong: 定义着重文字，与<b></b>效果相同 */
   color: rgb(255, 96, 32);
   font-weight: bolder;
+}
+
+a {
+  color: #C8C8C8;
+  text-decoration: none;
+  border: solid 1px;
+  border-color: #285e8e7f;
 }
 
 i { /*定义斜体*/
